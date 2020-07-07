@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    
+    
+    
+
+}
+
+.imagediv{
+    position: relative;
+    
+    width: 50%;
+   
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom:10%;
+    
+    box-shadow: 2px  -4px 4px  black,
+                0px  -2px 4px 2px white;
+              
+    border-radius: 10px;
+    
+   
+}
+.imagediv>img{
+    transition: all .2s ease-in;
+}
+#previousbutton{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    color: white;
+    
+    opacity: 40%;
+    border-radius: 100%;
+}
+
+#previousbutton:hover{
+    background-color: black;
+    color: gold;
+    opacity: 60%;
+    cursor: pointer;
+    
+    
+}
+#nextbutton{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    color: white;
+    
+    opacity: 40%;
+    border-radius: 100%;
+   
+}
+
+  #nextbutton:hover{
+      background-color: black;
+      color: gold;
+      opacity: 60%;
+      cursor: pointer;
+    
+      
+  }
+  .slido{
+      margin-bottom: 0px;
+  }
+
+  .images{
+      width: 100%;
+      height: auto;
+    
+     
+      
+      
+  }
